@@ -1,5 +1,5 @@
 {
-  "name": "@turborepo-starter-project/client",
+  "name": "@focal/web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -38,7 +38,7 @@
     "babel-plugin-react-compiler": "1.0.0",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "@turborepo-starter-project/server": "workspace:*"
+    "@focal/server": "workspace:*"
   },
   "ignoreScripts": [
     "sharp",

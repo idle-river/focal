@@ -1,5 +1,5 @@
 {
-  "name": "turborepo-starter-project",
+  "name": "focal",
   "private": true,
   "scripts": {
     "build": "turbo run build",
