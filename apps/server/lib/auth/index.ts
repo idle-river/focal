@@ -13,9 +13,9 @@ const resolvedLogLevel =
   (process.env.NODE_ENV === "production" ? "info" : "debug");
 const logLevel: "error" | "debug" | "info" | "warn" =
   resolvedLogLevel === "error" ||
-  resolvedLogLevel === "warn" ||
-  resolvedLogLevel === "info" ||
-  resolvedLogLevel === "debug"
+    resolvedLogLevel === "warn" ||
+    resolvedLogLevel === "info" ||
+    resolvedLogLevel === "debug"
     ? resolvedLogLevel
     : "info";
 
